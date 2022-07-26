@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <link rel="stylesheet" href="stylesproj.css"/>
+  </head>
+  <body>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <label id="name-label" class="aleft">Name: <input type="text" id="name" placeholder="Enter your Name" required /></label>
+      <label id="email-label" class="aleft">Email: <input type="email" id="email" placeholder="Enter your email" required /></label>
+      <label id="number-label" class="aleft">Age (optional): <input type="number" id="number" min="5" max="120" placeholder="Age" /></label>
+      <label>Would you recommend freeCodeCamp to a friend?</label>
+<label> <input type="radio" class="inline" name="recommend" value="1r" /> Definitely</label>
+<label> <input type="radio" class="inline" name="recommend" value="2r" /> Maybe </label>
+<label><input type="radio" class="inline" name="recommend" value="3r" />Not sure</label>
+
+      <label>What is your favorite feature of freeCodeCamp?</label>
+      <select id="dropdown">
+        <option id="">Select an option:</option>
+        <option id="1">Challenges</option>
+        <option id="2">Certificates</option>
+        <option id="3">Open Source</option>
+      </select>
+      <label>What did you learn in freeCodeCamp?</label>
+      <label><input class="inline" type="checkbox" value="1">Machine Learning</label>
+      <label><input class="inline" type="checkbox" value="2">Data Analysis</label>
+      <label><input class="inline" type="checkbox" value="3">Data Visualization</label>
+      <label><input class="inline" type="checkbox" value="4">Web Development (HTML-CSS)</label>
+      <label><input class="inline" type="checkbox" value="5">Python Programming</label>
+      <label>Give us your personal comments:</label>
+      <label><textarea name="comments" rows="3" cols="30" placeholder="freeCodeCamp taught me to..."></textarea>
+      <input type="submit" value="Submit" id="submit" />
+    </form>
+  </body>
+</html>
+
