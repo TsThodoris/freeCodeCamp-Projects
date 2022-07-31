@@ -83,3 +83,4 @@ lims = [0, 50000]
 plt.xlim(lims)
 plt.ylim(lims)
 _ = plt.plot(lims,lims)
+plt.show()
