@@ -1,5 +1,4 @@
-
-
+#---------- SMS text Classifier (spam/not spam) ----------#
 #import libraries
 import tensorflow as tf
 import pandas as pd
