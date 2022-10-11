@@ -1,3 +1,3 @@
 # freeCodeCamp-Projects
 
-HTML/CSS, PSQL, Bash, Machine Learning with python (tensorflow)
+HTML/CSS, Javascript, PSQL, Bash, Machine Learning with python (tensorflow)
